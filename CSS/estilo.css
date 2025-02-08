@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../Imagens/fundo1.jpg);
+    color: #353786;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+div#Init{
+    align-self: center;
+    text-align: center;
+}
+input{
+    display : inline;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #353786;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: #1C1C1C;
+}
+button#Sair, #Sair2{
+    width: 100px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: black;
+    cursor: pointer;
+}
+div#Sorteio{
+    display:block;
+    width: auto;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+} 
+div#Init-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#Init-form-cad{
+    width: 420px;
+    margin: 100px auto 0px auto;
+}
+div#Sorteio h1{
+    text-align: center;
+    text-decoration: blueviolet;
+    font-size: 20pt;
+    padding: 20px;
+}
+div#Init-form h1{
+    text-align: center;
+    padding: 10px;
+}
+button#btn-sortear{
+    width: 150px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid rgb(224, 186, 231);
+    cursor: pointer;
+    color: #353786;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+}
+strong:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color:#1C1C1C;
+}
+:-moz-placeholder { /* Firefox 18- */ 
+    color:#1C1C1C;
+}
+::-moz-placeholder {  /* Firefox 19+ */ 
+    color:#1C1C1C;  
+}
+:-ms-input-placeholder {  
+    color:#1C1C1C;  
+} 	
